@@ -15,7 +15,7 @@ for l in range(k + 1, 10 + k):
 l += 1
 sum += 1
 
-#### This is O(n^4) there is one outer loop plus 3 nested loops that all depend on n
+#### This is O(n^3) there is one outer loop plus 3 nested loops that all depend on n
 
 c) def bunnyEars(bunnies):
 if bunnies == 0:
